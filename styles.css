@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+.outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: max-content;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+#para {
+    font-size: xx-large;
+    margin-top: -80px;
+}
+
+#para2 {
+    font-size: xx-large;
+    margin-top: -65px;
+    width: 300px;
+}
+
+button {
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+    border-radius: 15px;
+    border: none;
+    margin-top: -20px;
+}
